@@ -1,0 +1,22 @@
+{
+  "name": "segmentmanager",
+  "version": "1.0.0",
+  "description": "Strava Segment Manager",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benparman/strasegman.git"
+  },
+  "author": "Ben Parman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benparman/strasegman/issues"
+  },
+  "homepage": "https://github.com/benparman/strasegman#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
