@@ -49,7 +49,7 @@ function loopGetLeader() {
         console.log('pushCounter = ', pushCounter);
         console.log('Returned Data = ', data);
 
-        if(i<5 && pushCounter > 0) {
+        if(i<5 && pushCounter === 50) {
           getLeader();
         }
       },
