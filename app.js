@@ -5,9 +5,7 @@ const STATE = {
   // userID: 1227925, //dummy
   access_token: '283e21d3a127a4cb5ca4ad4608272825c5a35332', //personal
   // access_token: '9f88334edeb57cc3c19505578cf5a4a60bc1e890', //dummy
-  leader: [],
-  leaderPage: 1,
-  leaderPushCount: 1,
+  koms: [],
   starred: [],
   starredPage: []
 };
@@ -16,41 +14,31 @@ const STATE = {
 function getData() {
   $('#getButton').click(function(event){ 
     event.preventDefault();
-    loopGetLeader();
+    getKoms();
+    // getStarredSegments();
   });
 }
-// getStarredSegments();
-
-
 //----------Retrieves Authenticated User's Leading Segments----------//
-function loopGetLeader() {
-  let pushCounter = 1;
+function getKoms() {
   let pageCounter = 1;
-  let i = 0;
-  // while(i<5 && pushCounter >0){
-  getLeader();
-  i++;
-  // pageCounter++;
-  // }
-  function getLeader() {
+  komAPI();
+  function komAPI() {
     let url = `https://www.strava.com/api/v3/athletes/${STATE.userID}/koms?`;
     const settings = {
       url: url,
       data: {
         id: STATE.userID,
         access_token: STATE.access_token,
-        per_page: 50,
+        per_page: 200,
         page: pageCounter
       },
       success: function(data) {
-        STATE.leader.push(data);
-        pushCounter = data.length;
+        data.forEach(element => {
+          STATE.koms.push(element);
+        });
         pageCounter++;
-        console.log('pushCounter = ', pushCounter);
-        console.log('Returned Data = ', data);
-
-        if(i<5 && pushCounter === 50) {
-          getLeader();
+        if(data.length === 200) {
+          komAPI();
         }
       },
       error: function(res) {
@@ -58,10 +46,8 @@ function loopGetLeader() {
       }
     };
     $.ajax(settings); 
-    console.log('pageCounter = ', pageCounter);
   }
 }
-
 //----------Retrieves Authenticated User's Starred Segments----------//
 function getStarredSegments() {
   for(let i = 0; i<10 && STATE.starPushCount > 0; i++) { //DO NOT change && to || or remove <10 safety net!!! Will kill API!
