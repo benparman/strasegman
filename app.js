@@ -1,21 +1,20 @@
 'use strict';
 
 const STATE = {
-  // userID: 238423, //personal
-  userID: 1227925, //dummy
-  // access_token: '283e21d3a127a4cb5ca4ad4608272825c5a35332', //personal
-  access_token: '9f88334edeb57cc3c19505578cf5a4a60bc1e890', //dummy
+  userID: 238423, //personal
+  // userID: 1227925, //dummy
+  access_token: '283e21d3a127a4cb5ca4ad4608272825c5a35332', //personal
+  // access_token: '9f88334edeb57cc3c19505578cf5a4a60bc1e890', //dummy
   koms: [],
   starred: [],
-  starredPage: []
 };
-
 //----------Listen for get data button click----------//
 function getData() {
   $('#getButton').click(function(event){ 
     event.preventDefault();
-    // getKoms();
+    getKoms();
     getStarredSegments();
+    console.log(STATE);
   });
 }
 //----------Retrieves Authenticated User's Leading Segments----------//
@@ -76,6 +75,26 @@ function getStarredSegments() {
     };
     $.ajax(settings);
   }
+}
+//----------Sort Array Data----------//
+function sortData(array,method) {
+  return array.sort(method);
+}
+
+function alphabeticalAscend(a,b) {
+  if (a.name < b.name)
+    return -1;
+  if (a.name > b.name)
+    return 1;
+  return 0;
+}
+
+function alphabeticalDescend(a,b) {
+  if (a.name > b.name)
+    return -1;
+  if (a.name < b.name)
+    return 1;
+  return 0;
 }
 
 $(document).ready(getData);
