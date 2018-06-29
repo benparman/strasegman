@@ -1,1 +1,1 @@
-# strasegman
+A segment managing utility.
