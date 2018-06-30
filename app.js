@@ -77,19 +77,15 @@ function getStarredSegments() {
   }
 }
 //----------Sort Array Data----------//
-function sortData(array ,method, node, parent) {//    ie: sortData(STATE.koms, alphabeticalAscend)
-  // return array.map((item, i) => testSort(item,array[i+1], criteria));
-  // return _.sortBy(array, [function(o) { return o.name; }]);
+//usage examples//
+//sortData(STATE.koms,'sortAscend','name') -- no parent
+//sortData(STATE.koms,'sortDescend','city','segment')  --'segment' as parent
+function sortData(array ,method, sortKey, parent) {
   return array.sort(function(a,b){
-    // if (a.segment[criteria] < b.segment[criteria])
-    //   return -1;
-    // if (a.segment[criteria] > b.segment[criteria])
-    //   return 1;
-    return alphabeticalAscend(a,b,node,parent);
+    return method(a,b,sortKey,parent);
   });
 }
-function alphabeticalAscend(a,b,c,parent) {
-  // console.log(a,b,c);
+function sortAscend(a,b,c,parent) {
   if(parent){
     if (a[parent][c] < b[parent][c])
       return -1;
@@ -100,26 +96,19 @@ function alphabeticalAscend(a,b,c,parent) {
     return -1;
   if (a[c] > b[c])
     return 1;
-  // return testSort();
 }
-function alphabeticalDescend(a,b) {
-  if (a.name > b.name)
-    return -1;
-  if (a.name < b.name)
-    return 1;
-  return 0;
-}
-//
-function testSort(a,b,c) {
-  console.log(b);
-  if (a[c] < b[c])
-    return -1;
+function sortDescend(a,b,c,parent) {
+  if(parent){
+    if (a[parent][c] > b[parent][c])
+      return -1;
+    if (a[parent][c] < b[parent][c])
+      return 1;
+  }
   if (a[c] > b[c])
+    return -1;
+  if (a[c] < b[c])
     return 1;
-  return 0;
 }
-
-//write function with my own sorting method, or have sorting method for each criteria (ie name);
-//array.map() to sort array of objects by object parameter
+//--------End Sort Array Data--------//
 
 $(document).ready(getData);
