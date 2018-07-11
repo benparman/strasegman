@@ -1,640 +1,142 @@
 {
-    "id": 41334443504,
+    "id": 5178747,
     "resource_state": 2,
-    "name": "New Trail 2016",
-    "activity": {
-        "id": 1649828862,
-        "resource_state": 1
-    },
-    "athlete": {
-        "id": 238423,
-        "resource_state": 1
-    },
-    "elapsed_time": 271,
-    "moving_time": 271,
-    "start_date": "2018-06-20T00:00:02Z",
-    "start_date_local": "2018-06-19T18:00:02Z",
-    "distance": 1363,
-    "start_index": 2,
-    "end_index": 273,
-    "average_cadence": 92,
-    "device_watts": true,
-    "average_watts": 327.1,
-    "average_heartrate": 167.5,
-    "max_heartrate": 173,
-    "segment": {
-        "id": 12368798,
-        "resource_state": 2,
-        "name": "New Trail 2016",
-        "activity_type": "Ride",
-        "distance": 1464.8,
-        "average_grade": 4.3,
-        "maximum_grade": 21.9,
-        "elevation_high": 2608.9,
-        "elevation_low": 2546.1,
-        "start_latlng": [
-            41.254392,
-            -105.422445
-        ],
-        "end_latlng": [
-            41.25168,
-            -105.433009
-        ],
-        "start_latitude": 41.254392,
-        "start_longitude": -105.422445,
-        "end_latitude": 41.25168,
-        "end_longitude": -105.433009,
-        "climb_category": 0,
-        "city": "Laramie",
-        "state": "Wyoming",
-        "country": "United States",
-        "private": false,
-        "hazardous": false,
-        "starred": false
-    },
-    "kom_rank": 1,
-    "pr_rank": null,
-    "achievements": [
-        {
-            "type_id": 2,
-            "type": "overall",
-            "rank": 1
-        }
-    ]
+    "name": "Stout: Towers to Towers reroute",
+    "activity_type": "Ride",
+    "distance": 3765,
+    "average_grade": 4.3,
+    "maximum_grade": 36.2,
+    "elevation_high": 1980.6,
+    "elevation_low": 1790.6,
+    "start_latlng": [
+        40.5393,
+        -105.172687
+    ],
+    "end_latlng": [
+        40.542362,
+        -105.181223
+    ],
+    "start_latitude": 40.5393,
+    "start_longitude": -105.172687,
+    "end_latitude": 40.542362,
+    "end_longitude": -105.181223,
+    "climb_category": 2,
+    "city": "Fort Collins",
+    "state": "CO",
+    "country": "United States",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "starred_date": "2018-06-24T00:48:37Z"
 }
 {
-    "id": 40460588845,
+    "id": 6022282,
     "resource_state": 2,
-    "name": "ToC (2018) - Stage 5",
-    "activity": {
-        "id": 1616002238,
-        "resource_state": 1
+    "name": "Full Sawmill climb to Lower Mill Creek descent down to West Valley",
+    "activity_type": "Ride",
+    "distance": 6402.8,
+    "average_grade": 0.6,
+    "maximum_grade": 49.8,
+    "elevation_high": 1912.9,
+    "elevation_low": 1671.5,
+    "start_latlng": [
+        40.548207,
+        -105.167149
+    ],
+    "end_latlng": [
+        40.562308,
+        -105.173969
+    ],
+    "start_latitude": 40.548207,
+    "start_longitude": -105.167149,
+    "end_latitude": 40.562308,
+    "end_longitude": -105.173969,
+    "climb_category": 0,
+    "city": "Fort Collins",
+    "state": "CO",
+    "country": "United States",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 2271,
+    "athlete_pr_effort": {
+        "id": 6981120217,
+        "elapsed_time": 2271,
+        "distance": 6446.9,
+        "start_date": "2015-05-02T19:25:32Z",
+        "start_date_local": "2015-05-02T13:25:32Z",
+        "is_kom": false
     },
-    "athlete": {
-        "id": 238423,
-        "resource_state": 1
-    },
-    "elapsed_time": 757,
-    "moving_time": 757,
-    "start_date": "2018-06-04T00:48:38Z",
-    "start_date_local": "2018-06-03T18:48:38Z",
-    "distance": 4270.2,
-    "start_index": 6082,
-    "end_index": 6839,
-    "average_cadence": 75.8,
-    "device_watts": true,
-    "average_watts": 175.1,
-    "average_heartrate": 150.5,
-    "max_heartrate": 168,
-    "segment": {
-        "id": 17674196,
-        "resource_state": 2,
-        "name": "ToC (2018) - Stage 5",
-        "activity_type": "Ride",
-        "distance": 4483.5,
-        "average_grade": -6.1,
-        "maximum_grade": 19.3,
-        "elevation_high": 1979,
-        "elevation_low": 1706.2,
-        "start_latlng": [
-            40.546953,
-            -105.185312
-        ],
-        "end_latlng": [
-            40.56227,
-            -105.173827
-        ],
-        "start_latitude": 40.546953,
-        "start_longitude": -105.185312,
-        "end_latitude": 40.56227,
-        "end_longitude": -105.173827,
-        "climb_category": 0,
-        "city": "Loveland",
-        "state": "Colorado",
-        "country": "United States",
-        "private": false,
-        "hazardous": false,
-        "starred": false
-    },
-    "kom_rank": 1,
-    "pr_rank": null,
-    "achievements": [
-        {
-            "type_id": 2,
-            "type": "overall",
-            "rank": 1
-        }
-    ]
+    "starred_date": "2018-06-03T22:25:00Z"
 }
 {
-    "id": 40460588536,
+    "id": 17415917,
     "resource_state": 2,
-    "name": "Mill Creek training loop (start/end at Shoreline/Towers post)",
-    "activity": {
-        "id": 1616002238,
-        "resource_state": 1
-    },
-    "athlete": {
-        "id": 238423,
-        "resource_state": 1
-    },
-    "elapsed_time": 2879,
-    "moving_time": 2879,
-    "start_date": "2018-06-03T23:23:24Z",
-    "start_date_local": "2018-06-03T17:23:24Z",
-    "distance": 12737.5,
-    "start_index": 968,
-    "end_index": 3847,
-    "average_cadence": 77.1,
-    "device_watts": true,
-    "average_watts": 246.9,
-    "average_heartrate": 151.7,
-    "max_heartrate": 167,
-    "segment": {
-        "id": 10694058,
-        "resource_state": 2,
-        "name": "Mill Creek training loop (start/end at Shoreline/Towers post)",
-        "activity_type": "Ride",
-        "distance": 13239.7,
-        "average_grade": 0.1,
-        "maximum_grade": 41.4,
-        "elevation_high": 1985.6,
-        "elevation_low": 1545.2,
-        "start_latlng": [
-            40.538006,
-            -105.163902
-        ],
-        "end_latlng": [
-            40.538016,
-            -105.163789
-        ],
-        "start_latitude": 40.538006,
-        "start_longitude": -105.163902,
-        "end_latitude": 40.538016,
-        "end_longitude": -105.163789,
-        "climb_category": 0,
-        "city": "Fort Collins",
-        "state": "Colorado",
-        "country": "United States",
-        "private": false,
-        "hazardous": false,
-        "starred": false
-    },
-    "kom_rank": 1,
-    "pr_rank": null,
-    "achievements": [
-        {
-            "type_id": 2,
-            "type": "overall",
-            "rank": 1
-        }
-    ]
+    "name": "Tooth or Consequences 2018 - Entire Course",
+    "activity_type": "Ride",
+    "distance": 38202.3,
+    "average_grade": 0,
+    "maximum_grade": 42,
+    "elevation_high": 2179.8,
+    "elevation_low": 1663.3,
+    "start_latlng": [
+        40.588328,
+        -105.184007
+    ],
+    "end_latlng": [
+        40.588336,
+        -105.184162
+    ],
+    "start_latitude": 40.588328,
+    "start_longitude": -105.184007,
+    "end_latitude": 40.588336,
+    "end_longitude": -105.184162,
+    "climb_category": 0,
+    "city": "Fort Collins",
+    "state": "Colorado",
+    "country": "United States",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "starred_date": "2018-06-04T16:25:11Z"
 }
 {
-    "id": 40279645849,
+    "id": 17674311,
     "resource_state": 2,
-    "name": "Bluesky outnback w IndianSummer lot to lot",
-    "activity": {
-        "id": 1609385076,
-        "resource_state": 1
+    "name": "ToC (2018) - Stage 2",
+    "activity_type": "Ride",
+    "distance": 4626.8,
+    "average_grade": -9,
+    "maximum_grade": 7,
+    "elevation_high": 2125,
+    "elevation_low": 1707.5,
+    "start_latlng": [
+        40.568372,
+        -105.201285
+    ],
+    "end_latlng": [
+        40.562301,
+        -105.173714
+    ],
+    "start_latitude": 40.568372,
+    "start_longitude": -105.201285,
+    "end_latitude": 40.562301,
+    "end_longitude": -105.173714,
+    "climb_category": 0,
+    "city": "Fort Collins",
+    "state": "Colorado",
+    "country": "United States",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 951,
+    "athlete_pr_effort": {
+        "id": 39364147125,
+        "elapsed_time": 951,
+        "distance": 4593.7,
+        "start_date": "2014-11-28T19:37:00Z",
+        "start_date_local": "2014-11-28T12:37:00Z",
+        "is_kom": false
     },
-    "athlete": {
-        "id": 238423,
-        "resource_state": 1
-    },
-    "elapsed_time": 3759,
-    "moving_time": 3759,
-    "start_date": "2018-05-31T22:51:25Z",
-    "start_date_local": "2018-05-31T16:51:25Z",
-    "distance": 21039.3,
-    "start_index": 1700,
-    "end_index": 5459,
-    "average_cadence": 76.7,
-    "device_watts": true,
-    "average_watts": 222.2,
-    "average_heartrate": 147.8,
-    "max_heartrate": 167,
-    "segment": {
-        "id": 7143194,
-        "resource_state": 2,
-        "name": "Bluesky outnback w IndianSummer lot to lot",
-        "activity_type": "Ride",
-        "distance": 21166.4,
-        "average_grade": 0,
-        "maximum_grade": 40.4,
-        "elevation_high": 1772.2,
-        "elevation_low": 1628,
-        "start_latlng": [
-            40.518177,
-            -105.167533
-        ],
-        "end_latlng": [
-            40.518408,
-            -105.16765
-        ],
-        "start_latitude": 40.518177,
-        "start_longitude": -105.167533,
-        "end_latitude": 40.518408,
-        "end_longitude": -105.16765,
-        "climb_category": 0,
-        "city": "Fort Collins",
-        "state": "CO",
-        "country": "United States",
-        "private": false,
-        "hazardous": false,
-        "starred": false
-    },
-    "kom_rank": 1,
-    "pr_rank": null,
-    "achievements": [
-        {
-            "type_id": 2,
-            "type": "overall",
-            "rank": 1
-        }
-    ]
-}
-{
-    "id": 39932671503,
-    "resource_state": 2,
-    "name": "Climbing the \"3 bitches\" on Stout South",
-    "activity": {
-        "id": 1596139088,
-        "resource_state": 1
-    },
-    "athlete": {
-        "id": 238423,
-        "resource_state": 1
-    },
-    "elapsed_time": 350,
-    "moving_time": 350,
-    "start_date": "2018-05-26T02:32:04Z",
-    "start_date_local": "2018-05-25T20:32:04Z",
-    "distance": 843.2,
-    "start_index": 6804,
-    "end_index": 7154,
-    "average_cadence": 76.1,
-    "device_watts": true,
-    "average_watts": 319.3,
-    "average_heartrate": 169.6,
-    "max_heartrate": 174,
-    "segment": {
-        "id": 2937855,
-        "resource_state": 2,
-        "name": "Climbing the \"3 bitches\" on Stout South",
-        "activity_type": "Ride",
-        "distance": 851.98,
-        "average_grade": 11.7,
-        "maximum_grade": 51.8,
-        "elevation_high": 2023.8,
-        "elevation_low": 1924.2,
-        "start_latlng": [
-            40.53181570954621,
-            -105.17200564965606
-        ],
-        "end_latlng": [
-            40.5361763946712,
-            -105.17775680869818
-        ],
-        "start_latitude": 40.53181570954621,
-        "start_longitude": -105.17200564965606,
-        "end_latitude": 40.5361763946712,
-        "end_longitude": -105.17775680869818,
-        "climb_category": 1,
-        "city": "Fort Collins",
-        "state": "CO",
-        "country": "United States",
-        "private": false,
-        "hazardous": false,
-        "starred": false
-    },
-    "kom_rank": 1,
-    "pr_rank": null,
-    "achievements": [
-        {
-            "type_id": 2,
-            "type": "overall",
-            "rank": 1
-        }
-    ]
-}
-{
-    "id": 39932671511,
-    "resource_state": 2,
-    "name": "Climbing lower Spring Creek/Stout/Westridge link ",
-    "activity": {
-        "id": 1596139088,
-        "resource_state": 1
-    },
-    "athlete": {
-        "id": 238423,
-        "resource_state": 1
-    },
-    "elapsed_time": 1133,
-    "moving_time": 1133,
-    "start_date": "2018-05-26T02:22:55Z",
-    "start_date_local": "2018-05-25T20:22:55Z",
-    "distance": 3716.7,
-    "start_index": 6255,
-    "end_index": 7388,
-    "average_cadence": 75.9,
-    "device_watts": true,
-    "average_watts": 220.8,
-    "average_heartrate": 158.8,
-    "max_heartrate": 174,
-    "segment": {
-        "id": 5133619,
-        "resource_state": 2,
-        "name": "Climbing lower Spring Creek/Stout/Westridge link ",
-        "activity_type": "Ride",
-        "distance": 3764.5,
-        "average_grade": 3.4,
-        "maximum_grade": 49.5,
-        "elevation_high": 1979.4,
-        "elevation_low": 1805.2,
-        "start_latlng": [
-            40.536548,
-            -105.183614
-        ],
-        "end_latlng": [
-            40.543434,
-            -105.181911
-        ],
-        "start_latitude": 40.536548,
-        "start_longitude": -105.183614,
-        "end_latitude": 40.543434,
-        "end_longitude": -105.181911,
-        "climb_category": 1,
-        "city": "Fort Collins",
-        "state": "CO",
-        "country": "United States",
-        "private": false,
-        "hazardous": false,
-        "starred": false
-    },
-    "kom_rank": 1,
-    "pr_rank": null,
-    "achievements": [
-        {
-            "type_id": 2,
-            "type": "overall",
-            "rank": 1
-        }
-    ]
-}
-{
-    "id": 39728562552,
-    "resource_state": 2,
-    "name": "Sawmill Climb - Nomad junction to Loggers",
-    "activity": {
-        "id": 1588057895,
-        "resource_state": 1
-    },
-    "athlete": {
-        "id": 238423,
-        "resource_state": 1
-    },
-    "elapsed_time": 575,
-    "moving_time": 575,
-    "start_date": "2018-05-21T21:47:08Z",
-    "start_date_local": "2018-05-21T15:47:08Z",
-    "distance": 1799.7,
-    "start_index": 2662,
-    "end_index": 3237,
-    "average_cadence": 82,
-    "device_watts": true,
-    "average_watts": 368,
-    "average_heartrate": 175.6,
-    "max_heartrate": 181,
-    "segment": {
-        "id": 13517885,
-        "resource_state": 2,
-        "name": "Sawmill Climb - Nomad junction to Loggers",
-        "activity_type": "Ride",
-        "distance": 1816,
-        "average_grade": 9,
-        "maximum_grade": 34.6,
-        "elevation_high": 1874.8,
-        "elevation_low": 1711.8,
-        "start_latlng": [
-            40.55014,
-            -105.170329
-        ],
-        "end_latlng": [
-            40.545933,
-            -105.17958
-        ],
-        "start_latitude": 40.55014,
-        "start_longitude": -105.170329,
-        "end_latitude": 40.545933,
-        "end_longitude": -105.17958,
-        "climb_category": 2,
-        "city": "Fort Collins",
-        "state": "Colorado",
-        "country": "United States",
-        "private": false,
-        "hazardous": false,
-        "starred": false
-    },
-    "kom_rank": 1,
-    "pr_rank": null,
-    "achievements": [
-        {
-            "type_id": 2,
-            "type": "overall",
-            "rank": 1
-        }
-    ]
-}
-{
-    "id": 39728562539,
-    "resource_state": 2,
-    "name": "New Sawmill Climb from Nomad to Loggers",
-    "activity": {
-        "id": 1588057895,
-        "resource_state": 1
-    },
-    "athlete": {
-        "id": 238423,
-        "resource_state": 1
-    },
-    "elapsed_time": 572,
-    "moving_time": 572,
-    "start_date": "2018-05-21T21:47:07Z",
-    "start_date_local": "2018-05-21T15:47:07Z",
-    "distance": 1792.1,
-    "start_index": 2661,
-    "end_index": 3233,
-    "average_cadence": 82,
-    "device_watts": true,
-    "average_watts": 367.4,
-    "average_heartrate": 175.6,
-    "max_heartrate": 181,
-    "segment": {
-        "id": 5644307,
-        "resource_state": 2,
-        "name": "New Sawmill Climb from Nomad to Loggers",
-        "activity_type": "Ride",
-        "distance": 1802.5,
-        "average_grade": 9.2,
-        "maximum_grade": 30,
-        "elevation_high": 1874.8,
-        "elevation_low": 1709.6,
-        "start_latlng": [
-            40.550113,
-            -105.170323
-        ],
-        "end_latlng": [
-            40.545944,
-            -105.179477
-        ],
-        "start_latitude": 40.550113,
-        "start_longitude": -105.170323,
-        "end_latitude": 40.545944,
-        "end_longitude": -105.179477,
-        "climb_category": 2,
-        "city": "Fort Collins",
-        "state": "CO",
-        "country": "United States",
-        "private": false,
-        "hazardous": false,
-        "starred": false
-    },
-    "kom_rank": 1,
-    "pr_rank": null,
-    "achievements": [
-        {
-            "type_id": 2,
-            "type": "overall",
-            "rank": 1
-        }
-    ]
-}
-{
-    "id": 39728562514,
-    "resource_state": 2,
-    "name": "Lower Sawmill Jctn up to Stout",
-    "activity": {
-        "id": 1588057895,
-        "resource_state": 1
-    },
-    "athlete": {
-        "id": 238423,
-        "resource_state": 1
-    },
-    "elapsed_time": 487,
-    "moving_time": 487,
-    "start_date": "2018-05-21T21:47:06Z",
-    "start_date_local": "2018-05-21T15:47:06Z",
-    "distance": 1603,
-    "start_index": 2660,
-    "end_index": 3147,
-    "average_cadence": 83.5,
-    "device_watts": true,
-    "average_watts": 370,
-    "average_heartrate": 174.9,
-    "max_heartrate": 181,
-    "segment": {
-        "id": 7189621,
-        "resource_state": 2,
-        "name": "Lower Sawmill Jctn up to Stout",
-        "activity_type": "Ride",
-        "distance": 1644.5,
-        "average_grade": 9,
-        "maximum_grade": 47,
-        "elevation_high": 1866.7,
-        "elevation_low": 1718.2,
-        "start_latlng": [
-            40.550117,
-            -105.170273
-        ],
-        "end_latlng": [
-            40.545978,
-            -105.17755
-        ],
-        "start_latitude": 40.550117,
-        "start_longitude": -105.170273,
-        "end_latitude": 40.545978,
-        "end_longitude": -105.17755,
-        "climb_category": 1,
-        "city": "Fort Collins",
-        "state": "CO",
-        "country": "United States",
-        "private": false,
-        "hazardous": false,
-        "starred": false
-    },
-    "kom_rank": 1,
-    "pr_rank": null,
-    "achievements": [
-        {
-            "type_id": 2,
-            "type": "overall",
-            "rank": 1
-        }
-    ]
-}
-{
-    "id": 39728562568,
-    "resource_state": 2,
-    "name": "ToC (2018) - Stage 3",
-    "activity": {
-        "id": 1588057895,
-        "resource_state": 1
-    },
-    "athlete": {
-        "id": 238423,
-        "resource_state": 1
-    },
-    "elapsed_time": 963,
-    "moving_time": 963,
-    "start_date": "2018-05-21T21:44:17Z",
-    "start_date_local": "2018-05-21T15:44:17Z",
-    "distance": 2681.8,
-    "start_index": 2491,
-    "end_index": 3454,
-    "average_cadence": 78.3,
-    "device_watts": true,
-    "average_watts": 322.6,
-    "average_heartrate": 168.3,
-    "max_heartrate": 181,
-    "segment": {
-        "id": 17674105,
-        "resource_state": 2,
-        "name": "ToC (2018) - Stage 3",
-        "activity_type": "Ride",
-        "distance": 2555.7,
-        "average_grade": 10.6,
-        "maximum_grade": 25.5,
-        "elevation_high": 1945.2,
-        "elevation_low": 1674.6,
-        "start_latlng": [
-            40.548333,
-            -105.167559
-        ],
-        "end_latlng": [
-            40.543371,
-            -105.180729
-        ],
-        "start_latitude": 40.548333,
-        "start_longitude": -105.167559,
-        "end_latitude": 40.543371,
-        "end_longitude": -105.180729,
-        "climb_category": 2,
-        "city": "Fort Collins",
-        "state": "Colorado",
-        "country": "United States",
-        "private": false,
-        "hazardous": false,
-        "starred": false
-    },
-    "kom_rank": 1,
-    "pr_rank": null,
-    "achievements": [
-        {
-            "type_id": 2,
-            "type": "overall",
-            "rank": 1
-        }
-    ]
+    "starred_date": "2018-06-04T16:26:12Z"
 }

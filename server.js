@@ -18,6 +18,7 @@ app.get('/segments', (req, res) => {
   Segment
     .find()
     .then(segments => {
+      console.log(segments);
       res.json(segments.map(segments => segments.serialize()));
     })
     .catch(err => {
@@ -65,4 +66,6 @@ app.post('/segments', (req, res) => {
     });
 });
 
-app.listen(3000, () => console.log('Example app listening on port 3000!'));
+app.listen(process.env.PORT || 8080, () => {
+  console.log(`Your app is listening on port ${process.env.PORT || 8080}`);
+});
