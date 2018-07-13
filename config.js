@@ -1,5 +1,5 @@
 'use strict';
 
-exports.DATABASE_URL = process.env.DATABASE_URL || 'mongodb://localhost/segmentManagerDB/';
-exports.TEST_DATABASE_URL = process.env.TEST_DATABASE_URL || 'mongodb://localhost/test-segmentManagerDB';
+exports.DATABASE_URL = process.env.DATABASE_URL || 'mongodb://localhost/segmentmanager/';
+exports.TEST_DATABASE_URL = process.env.TEST_DATABASE_URL || 'mongodb://localhost/test-segmentmanager';
 exports.PORT = process.env.PORT || 8080;

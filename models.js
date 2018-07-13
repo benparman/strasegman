@@ -86,4 +86,4 @@ const SegmentSchema = mongoose.Schema({
   }
 */
 const Segment = mongoose.model('Segment', SegmentSchema);
-module.exports = {Segment};
+module.exports = { Segment };
