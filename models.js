@@ -4,29 +4,12 @@ const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 
 const SegmentSchema = mongoose.Schema({
-  id: {type: Number, required: true},
-  resource_state: Number,
-  name: String,
   activity_type: String,
-  distance: Number,
-  average_grade: Number,
-  maximum_grade: Number,
-  elevation_high: Number,
-  elevation_low: Number,
-  start_latlng: [Number],
-  end_latlng: [Number],
-  start_latitude: Number,
-  start_longitude: Number,
-  end_latitude: Number,
-  end_longitude: Number,
-  climb_category: Number,
   city: String,
-  state: String,
   country: String,
-  private: Boolean,
-  hazardous: Boolean,
-  starred: Boolean,
-  starred_date: Date
+  id: {type: Number, required: true},
+  name: String,
+  state: String,
 });
 
 /*
