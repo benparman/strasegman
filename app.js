@@ -7,6 +7,7 @@ const STATE = {
   // access_token: '9f88334edeb57cc3c19505578cf5a4a60bc1e890', //dummy
   koms: [],
   starred: [],
+  temp: []
 };
 //----------Listen for get data button click----------//
 function getData() {
@@ -61,15 +62,16 @@ function getStarredSegments() {
         page: pageCounter
       },
       success: function(data) {
-        console.log(data);
+        STATE.temp = data;
         for (let i=0; i < data.length; i++) {
-          let segmentData = [];
-          segmentData.push(data[i].activity_type);
-          segmentData.push(data[i].city);
-          segmentData.push(data[i].country);
-          segmentData.push(data[i].id);
-          segmentData.push(data[i].name);
-          segmentData.push(data[i].state);
+          let segmentData = {
+            'activity_type': data[i].activity_type,
+            'city': data[i].city,
+            'country': data[i].country,
+            'id': data[i].id,
+            'name': data[i].name,
+            'state': data[i].state
+          };
           STATE.starred.push(segmentData);
         }
         pageCounter++;

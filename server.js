@@ -50,29 +50,12 @@ app.post('/segments', (req, res) => {
   }
   Segment
     .create({
-      id: req.body.id,
-      resource_state: req.body.resource_state,
-      name: req.body.name,
       activity_type: req.body.activity_type,
-      distance: req.body.distance,
-      average_grade: req.body.average_grade,
-      maximum_grade: req.body.maximum_grade,
-      elevation_high: req.body.elevation_high,
-      elevation_low: req.body.elevation_low,
-      start_latlng: req.body.start_latlng,
-      end_latlng: req.body.end_latlng,
-      start_latitude: req.body.start_latitude,
-      start_longitude: req.body.start_longitude,
-      end_latitude: req.body.end_latitude,
-      end_longitude: req.body.end_longitude,
-      climb_category: req.body.climb_category,
       city: req.body.city,
-      state: req.body.state,
       country: req.body.country,
-      private: req.body.private,
-      hazardous: req.body.hazardous,
-      starred: req.body.starred,
-      starred_date: req.body.starred_date,
+      id: req.body.id,
+      name: req.body.name,
+      state: req.body.state
     })
     .then(Segment => res.status(201).json(Segment.serialize()))
     .catch(err => {
