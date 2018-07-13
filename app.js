@@ -61,9 +61,17 @@ function getStarredSegments() {
         page: pageCounter
       },
       success: function(data) {
-        data.forEach(element => {
-          STATE.starred.push(element);
-        });
+        console.log(data);
+        for (let i=0; i < data.length; i++) {
+          let segmentData = [];
+          segmentData.push(data[i].activity_type);
+          segmentData.push(data[i].city);
+          segmentData.push(data[i].country);
+          segmentData.push(data[i].id);
+          segmentData.push(data[i].name);
+          segmentData.push(data[i].state);
+          STATE.starred.push(segmentData);
+        }
         pageCounter++;
         if(data.length === 200) {
           starredAPI();
